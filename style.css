@@ -1,0 +1,344 @@
+/* reset pages */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar style  */
+#navigation{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    position:sticky;
+    
+    opacity: 0.8;
+}
+
+/* logo design  */
+#logo{
+    height: 100%;
+    width: 100%;
+    
+}
+#logo-h{
+    padding: 10px 60px;
+    padding-bottom: 0px;
+}
+
+#logo-p{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+/* list style  */
+
+.ul-list{
+    list-style: none;
+    display: flex;
+    
+    padding-top: 13px;
+    
+}
+.l-item{
+    padding: 10px 30px;
+}
+.l-item a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* home design  */
+
+#home{
+    height: 100%;
+    width: 100%;
+    background: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    opacity: 0.8;
+    
+}
+
+/* course design  */
+#course-h{
+    padding-top: 15px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+#course{
+    
+    height: 100%;
+    width: 100%;
+    
+    background: url(courses2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+.mainbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    
+
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249, 247, 247);
+    margin:40px;
+    border-radius: 15px;
+    opacity: 0.8;
+    align-items: center;
+    position: static;
+   
+
+}
+div h3{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+div img{
+    width: 95%;
+    border-radius:20px ;
+    padding:5px;
+}
+/* courses style  */
+.course-p{
+    color: rgb(99, 17, 229);
+    font-size: 28px;
+    text-align: justify;
+    padding: 8px;
+}
+
+.btn{
+    
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+/* teachers design  */
+#teacher{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    background: url(facalities.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+.team-img{
+    height: 55%;
+    border-radius:20px ;
+    padding:5px;
+}
+.team{
+    background-color: rgb(15, 8, 8);
+    color: rgb(248, 244, 244);
+    margin-left: 10px;
+    
+}
+.teacher-p{
+    color: rgb(224, 219, 231);
+    font-size: 28px;
+    text-align: center;
+    padding: 8px;
+}
+
+
+/* student design  */
+#student{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    background: url(student.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.student-box{
+    background-color: rgb(13, 15, 14);
+    border: 3px solid rgb(246, 246, 246);
+    
+
+}
+.student-h{
+    padding-top: 20px;
+    font-size:28px;
+    color: white;
+
+}
+.student-p{
+    font-size: 19px;
+    color: rgb(247, 247, 247);
+    padding: 3px 15px;
+}
+
+
+/* contact design  */
+
+
+#contact{
+    align-items: center;
+   
+
+}
+.contact-box{
+    background-color: rgb(127, 123, 123);
+    height: 100%;
+    width: 100%;
+    display: flex;
+   
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    margin: 20px;
+     background-color: azure;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+  
+    
+    
+}
+ input{
+        width: 350px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+.contact-h{
+    font-size: 45px;
+}
+.contact-p{
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+.contact-btn{
+    align-self: center;
+    margin: 20px;
+}
+
+/* hover effect  */
+.box:hover{
+    box-shadow: 10px 10px 15px;
+}
+.form-shad:hover{
+    box-shadow: 10px 10px 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    height: 3.2rem;
+    width: 10.5rem;
+
+}
+
+
+
+
+.main2{
+    
+    width:100%;
+    height:auto;
+    display: flex;
+}
+.main3{
+    margin:70px;
+    width: 550px;
+    height: auto;
+    border-radius: 50px;
+    opacity: 0.5;
+    box-shadow: 30px -30px 20px  rgb(12, 14, 7);
+    background-color: bisque;
+}
+.main4{
+    margin:70px;
+    width: 490px;
+    height: auto;
+    border-radius: 50px;
+    opacity: 0.7;
+    box-shadow: -20px 10px 20px  rgb(166, 170, 154);
+    background-color: rgb(29, 26, 21);
+    
+}
+
+
+
+
+.main4:hover{
+    margin: 70px;
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+    opacity: 0.7;
+    box-shadow: -20px 10px 20px  rgb(166, 170, 154);
+    background-color: rgb(29, 26, 21);
+
+}
+.main3:hover{
+    margin: 70px;
+    width: 560px;
+    height: auto;
+    border-radius: 50px;
+    opacity: 0.7;
+    box-shadow: -20px 10px 20px  rgb(166, 170, 154);
+    background-color: rgb(201, 198, 194);
+
+}
+
+.mainhead{
+    font-size: 55px;
+    color: beige;
+    text-align: center;
+    margin-top: 90px;
+    
+
+}
+.mainhead:hover{
+    font-size: 55px;
+    color: rgb(210, 203, 96);
+    text-shadow:2px 2px 4px aliceblue;
+    
+}
+.mainhead1{
+    font-size: 55px;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    margin-top: -3px;
+    
+    
+
+}
+
